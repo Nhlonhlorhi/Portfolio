@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Nhlonhlorhi Mabasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="pic/jajani.jpg" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="skills.html" class="active">SKILLS</a></li>
+                <li><a href="projects.html">MY PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <div class="skills-container">
+                <h2 class="section-title">Technical Skills & Certifications</h2>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Laravel</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Flask</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">VS Code</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">XAMPP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">WSL (Ubuntu)</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <div class="certifications-list">
+                            <div class="certification-item" onclick="openCertificate('ccna')">
+                                <i class="fas fa-award"></i>
+                                <span>CISCO CCNA</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('cybersecurity')">
+                                <i class="fas fa-award"></i>
+                                <span>Introduction to Cybersecurity</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('cloud')">
+                                <i class="fas fa-award"></i>
+                                <span>Introduction to Cloud Computing</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('sql-python')">
+                                <i class="fas fa-award"></i>
+                                <span>SQL & Python 3</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('devops')">
+                                <i class="fas fa-award"></i>
+                                <span>Core DevOps Skills: Agile & DevOps</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('data-analysis')">
+                                <i class="fas fa-award"></i>
+                                <span>Exploratory Data Analysis in Python</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('chatbots')">
+                                <i class="fas fa-award"></i>
+                                <span>Build Chatbots with Python</span>
+                            </div>
+                            <div class="certification-item" onclick="openCertificate('ai-fluency')">
+                                <i class="fas fa-award"></i>
+                                <span>Microsoft AI Fluency Course</span>
+                            </div>
+                            <div class="certification-item">
+                                <i class="fas fa-award"></i>
+                                <span>Salesforce AI Associate (In Progress)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Certificate Modals -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Certificate Details</h3>
+                <button class="close-modal" onclick="closeCertificate()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="certificate-details">
+                    <div class="certificate-info">
+                        <strong>Issuer:</strong>
+                        <span id="modalIssuer"></span>
+                    </div>
+                    <div class="certificate-info">
+                        <strong>Date Earned:</strong>
+                        <span id="modalDate"></span>
+                    </div>
+                    <div class="certificate-info">
+                        <strong>Skills:</strong>
+                        <div class="skills-tags" id="modalSkills"></div>
+                    </div>
+                    <div class="certificate-description" id="modalDescription"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nhlonhlorhi Mabasa. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Certificate data
+        const certificates = {
+            'ccna': {
+                title: 'CISCO CCNA Certification',
+                issuer: 'Cisco Networking Academy',
+                date: '2023',
+                skills: ['Network Fundamentals', 'IP Connectivity', 'Network Access', 'IP Services', 'Security Fundamentals'],
+                description: 'Comprehensive networking certification covering network fundamentals, IP connectivity, network access, IP services, and security fundamentals. Demonstrates proficiency in configuring, troubleshooting, and managing network infrastructure.'
+            },
+            'cybersecurity': {
+                title: 'Introduction to Cybersecurity',
+                issuer: 'Cisco Networking Academy',
+                date: '2023',
+                skills: ['Cybersecurity Basics', 'Threat Awareness', 'Network Security', 'Data Protection', 'Security Best Practices'],
+                description: 'Fundamental cybersecurity course covering essential concepts including threat awareness, network security principles, data protection methods, and security best practices for modern digital environments.'
+            },
+            'cloud': {
+                title: 'Introduction to Cloud Computing',
+                issuer: 'Codecademy',
+                date: '2023',
+                skills: ['Cloud Concepts', 'AWS Basics', 'Azure Fundamentals', 'Cloud Deployment', 'Virtualization'],
+                description: 'Comprehensive introduction to cloud computing concepts, including cloud service models (IaaS, PaaS, SaaS), deployment models, and hands-on experience with major cloud platforms like AWS and Azure.'
+            },
+            'sql-python': {
+                title: 'SQL & Python 3',
+                issuer: 'Codecademy',
+                date: '2023',
+                skills: ['SQL Queries', 'Database Design', 'Python Programming', 'Data Manipulation', 'CRUD Operations'],
+                description: 'Dual certification covering both SQL for database management and Python 3 for programming. Includes database design, complex queries, Python syntax, data structures, and integration between databases and applications.'
+            },
+            'devops': {
+                title: 'Core DevOps Skills: Agile & DevOps',
+                issuer: 'Codecademy',
+                date: '2023',
+                skills: ['Agile Methodology', 'DevOps Practices', 'CI/CD Pipelines', 'Team Collaboration', 'Project Management'],
+                description: 'Comprehensive course covering Agile development methodologies and DevOps practices. Includes continuous integration/continuous deployment (CI/CD), team collaboration strategies, and modern software development workflows.'
+            },
+            'data-analysis': {
+                title: 'Exploratory Data Analysis in Python',
+                issuer: 'Codecademy',
+                date: '2023',
+                skills: ['Data Visualization', 'Statistical Analysis', 'Pandas', 'Matplotlib', 'Seaborn', 'Data Cleaning'],
+                description: 'Advanced data analysis course focusing on exploratory data analysis techniques using Python. Covers data visualization, statistical analysis, data cleaning, and using libraries like Pandas, Matplotlib, and Seaborn for insightful data exploration.'
+            },
+            'chatbots': {
+                title: 'Build Chatbots with Python',
+                issuer: 'Codecademy',
+                date: '2023',
+                skills: ['Natural Language Processing', 'Dialogflow', 'Python Scripting', 'API Integration', 'Chatbot Design'],
+                description: 'Specialized course in building intelligent chatbots using Python. Covers natural language processing fundamentals, Dialogflow integration, API connections, and designing conversational interfaces for various applications.'
+            },
+            'ai-fluency': {
+                title: 'Microsoft AI Fluency Course',
+                issuer: 'Microsoft',
+                date: '2024',
+                skills: ['AI Fundamentals', 'Machine Learning', 'Azure AI Services', 'Ethical AI', 'AI Applications'],
+                description: 'Microsoft-certified course providing comprehensive understanding of artificial intelligence fundamentals. Covers machine learning concepts, Azure AI services, ethical AI considerations, and practical applications of AI in business environments.'
+            }
+        };
+
+        function openCertificate(certId) {
+            const cert = certificates[certId];
+            if (cert) {
+                document.getElementById('modalTitle').textContent = cert.title;
+                document.getElementById('modalIssuer').textContent = cert.issuer;
+                document.getElementById('modalDate').textContent = cert.date;
+                document.getElementById('modalDescription').textContent = cert.description;
+                
+                // Clear and populate skills
+                const skillsContainer = document.getElementById('modalSkills');
+                skillsContainer.innerHTML = '';
+                cert.skills.forEach(skill => {
+                    const skillTag = document.createElement('span');
+                    skillTag.className = 'skill-tag';
+                    skillTag.textContent = skill;
+                    skillsContainer.appendChild(skillTag);
+                });
+                
+                document.getElementById('certificateModal').style.display = 'block';
+            }
+        }
+
+        function closeCertificate() {
+            document.getElementById('certificateModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('certificateModal');
+            if (event.target === modal) {
+                closeCertificate();
+            }
+        }
+    </script>
+</body>
+</html>
