@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhlonhlorhi’s Chatbot Assistant</title>
+  <link rel="stylesheet" href="chatbot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="chatbot-widget" id="chatbot">
+    <div class="chatbot-header">
+      <h4><i class="fas fa-robot"></i> Ask Me Anything</h4>
+      <button class="close-chatbot" id="closeChat">&times;</button>
+    </div>
+
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="bot-message">
+        Hi! I'm <strong>Nhlonhlorhi's assistant</strong>. You can ask me about:
+        <br>• Skills & Experience  
+        <br>• Projects  
+        <br>• Education  
+        <br>• Contact Information  
+        <br>• Availability
+      </div>
+    </div>
+
+    <div class="chatbot-input">
+      <input type="text" id="chatbotInput" placeholder="Ask about Nhlonhlorhi...">
+      <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <!-- Chatbot Button -->
+<button class="chatbot-button" id="chatbotToggle">
+    💬
+</button>
+
+<!-- Chatbot Container -->
+<div class="chatbot-container" id="chatbotBox">
+    <div class="chatbot-header">
+        Nhlonhlorhi Chatbot
+        <span class="close-chat" id="closeChat">&times;</span>
+    </div>
+    <div class="chatbot-messages" id="chatMessages">
+        <div class="bot-message message">Hello! 👋 How can I help you today?</div>
+    </div>
+    <div class="chatbot-input-area">
+        <input type="text" id="chatInput" placeholder="Type your message..." />
+        <button id="sendBtn">➤</button>
+    </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

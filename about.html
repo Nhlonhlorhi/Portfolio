@@ -1,30 +1,158 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Nhlonhlorhi Mabasa</title>
+    <title>About Me - Nhlonhlorhi Mabasa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<script src="script.js"></script>
 <body>
     <div class="main">
         <div class="navbar">
             <img src="pic/jajani.jpg" class="logo">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="about.html" class="active">ABOUT</a></li>
                 <li><a href="skills.html">SKILLS</a></li>
                 <li><a href="projects.html">MY PROJECTS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
-        
-        <div class="info">
-            <h1>About Me</h1>
-            <h3>Professional Software Developer with experience in full-stack web development.</h3>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="about-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Professional Journey</h3>
+                        <p>I am a passionate and dedicated IT professional with a strong foundation in software development, information systems, and web technologies. My journey in technology began with a Diploma in Information Technology from Vaal University of Technology, where I specialized in software development and gained comprehensive knowledge in various IT domains.</p>
+                        
+                        <p>My expertise spans across full-stack web development, business analysis, system software, and cybersecurity. I am committed to creating innovative digital solutions that bridge the gap between business needs and technological capabilities.</p>
+                    </div>
+                    
+                    <div class="education">
+                        <h3>Education & Qualifications</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2021</div>
+                                <div class="timeline-content">
+                                    <h4>Matric Certificate</h4>
+                                    <p>Ximunwana High School</p>
+                                    <p>Completed secondary education with focus on Mathematics and Physical Sciences</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2022-2024</div>
+                                <div class="timeline-content">
+                                    <div class="company-logo">
+                                        <img src="pic/VUT.png" alt="Vaal University of Technology">
+                                    </div>
+                                    <h4>Diploma in Information Technology</h4>
+                                    <p>Vaal University of Technology</p>
+                                    <div class="specializations">
+                                        <span class="specialization-tag">Software Development (Java)</span>
+                                        <span class="specialization-tag">Information Systems</span>
+                                        <span class="specialization-tag">Business Analysis</span>
+                                        <span class="specialization-tag">System Software</span>
+                                        <span class="specialization-tag">Web Development</span>
+                                        <span class="specialization-tag">Database Management</span>
+                                        <span class="specialization-tag">Cybersecurity</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience">
+                        <h3>Professional Experience</h3>
+                        <div class="experience-grid">
+                            <div class="experience-card">
+                                <div class="company-logo">
+                                    <img src="pic/MICTSETA.jpg" alt="MICTSETA">
+                                </div>
+                                <div class="experience-details">
+                                    <h4>Web Developer Trainee</h4>
+                                    <p class="company">MICTSETA Programme</p>
+                                    <p class="duration">July 2024 - January 2025</p>
+                                    <p class="description">Participated in intensive web development training program focusing on modern web technologies and industry best practices. Gained hands-on experience in building responsive web applications and understanding client requirements.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-card">
+                                <div class="company-logo">
+                                    <img src="pic/management-consulting-muluma.png" alt="Muluma Management Consulting">
+                                </div>
+                                <div class="experience-details">
+                                    <h4>Full Stack Developer</h4>
+                                    <p class="company">Muluma Management Consulting / Negotium Solutions</p>
+                                    <p class="duration">February 2025 - January 2026</p>
+                                    <ul class="achievements">
+                                        <li>Completed Python Certification with focus on practical applications</li>
+                                        <li>Developed full-stack applications using PHP Laravel framework</li>
+                                        <li>Specialized in Prompt Engineering and AI integration</li>
+                                        <li>Completed System Development Learnership Programme</li>
+                                        <li>Worked on real-world projects for business clients</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Add this to your about.html -->
+<section class="faq-section">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(1)">
+                    <span>What technologies are you currently learning?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>I'm currently deepening my knowledge in Laravel, React.js, and expanding my AI/ML skills through the Salesforce AI Associate certification.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(2)">
+                    <span>Are you available for freelance projects?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! I'm available for freelance web development projects. I specialize in full-stack applications using Laravel and modern frontend technologies.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(3)">
+                    <span>What's your typical project timeline?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Simple websites: 1-2 weeks<br>Web applications: 2-6 weeks<br>Complex systems: 6+ weeks<br>I provide detailed timelines during project consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(4)">
+                    <span>Do you provide ongoing maintenance?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, I offer maintenance packages including security updates, feature additions, and technical support. Contact me for customized maintenance plans.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
+</section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Nhlonhlorhi Mabasa. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
